@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>Git Terminology and Commands</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/zenburn.min.css" id="highlight-theme"></head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section data-markdown ><textarea data-template>
+[comment]: # (This tutorial demonstrates how to use various Git commands to create and update a repository.)
+
+# Git Terminology and Commands
+
+---
+
+## Key Terminology
+
+---
+
+### Repository (Repo)
+
+<img src="E:\github repository\git-set-go\morning session\repository.png">
+
+---
+
+### Commit
+
+<img src="E:\github repository\git-set-go\morning session\commit.png">
+
+---
+
+### Push
+
+<img src="E:\github repository\git-set-go\morning session\push.png">
+
+---
+
+### Pull
+
+<img src="E:\github repository\git-set-go\morning session\push.png">
+
+---
+
+### Branch
+
+<img src="E:\github repository\git-set-go\morning session\branching.png">
+
+---
+
+### Checkout
+
+<img src="E:\github repository\git-set-go\morning session\branching.png">
+
+---
+
+## Initializing a Git Repository
+
+To start using Git, you need to initialize a repository in your project directory.
+
+```sh
+git init
+```
+
+---
+
+## Staging Changes
+
+After making changes to your files, you need to stage them before committing.
+
+```sh
+git add <file>
+```
+
+To stage all changes, use:
+
+```sh
+git add .
+```
+
+---
+
+## Cloning a Repository
+
+To clone an existing repository from GitHub:
+
+```sh
+git clone <repository_url>
+```
+
+---
+
+## Committing Changes
+
+Once your changes are staged, you can commit them with a message describing the changes.
+
+```sh
+git commit -m "Your commit message"
+```
+
+---
+
+## Pushing Changes
+
+To upload your committed changes to a remote repository on GitHub:
+
+```sh
+git push origin <branch_name>
+```
+
+---
+
+## Pulling Updates
+
+To fetch and merge updates from a remote repository:
+
+```sh
+git pull origin <branch_name>
+```
+
+---
+
+## Switching Branches
+
+To switch to a different branch in your repository:
+
+```sh
+git checkout <branch_name>
+```
+
+---
+
+## Checking Status
+
+To check the status of your files and see which changes are staged, unstaged, or untracked:
+
+```sh
+git status
+```
+
+---
+
+## Viewing Commit History
+
+To view the commit history of your repository:
+
+```sh
+git log
+```
+
+---
+
+By following these commands, you can effectively manage your Git repositories, whether you are creating a new one or updating an existing one.
+</textarea></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+Reveal.initialize({
+controls : false,
+markdown : {smartypants: true},
+				hash: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>

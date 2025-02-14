@@ -1,11 +1,11 @@
 # Git and GitHub Seminar Content
 
-
+---
 ## **Morning Session Topics**
 
 ### **1. Git and GitHub Basics**
 - [ ] **What are Git and GitHub?**
-  - [ ] Git: A distributed version control system for tracking code changes.
+  - [ ] Git: A distributed (opp to centralized) version control system for tracking code changes.
   - [ ] GitHub: A cloud-based platform that hosts Git repositories and enables collaboration.
 
 - [ ] **Purpose and Uses of Git and GitHub**
@@ -36,6 +36,7 @@
 - [ ] **Integration with Code Editors**
   - Using VS Code and other IDEs with GitHub for a seamless workflow.
 
+---
 ### **2. Using GitHub for Deployment**
 - [ ] **Static Website Deployment with GitHub Actions**
   - Deploying simple static sites (HTML, CSS, JS)
@@ -67,11 +68,10 @@
   - Generating a personal access token
   - Managing repositories using the GitHub API
 
-### **3 GitHub Student Developer Pack**
+### **GitHub Student Developer Pack**
   - How to apply for the pack
   - Benefits and usage
 
----
 ## **Final Competition**
 - A repository containing 20 simple C programs will be provided.
 - 5 randomly selected programs will have logical errors.
@@ -83,7 +83,7 @@
   5. Submit a pull request to the maintainer
 - The first participant to correctly fix the errors and create a pull request will win the competition.
 
----
+
 ## **Conclusion**
 By the end of this seminar, participants will have:
 - A clear understanding of Git and GitHub.
