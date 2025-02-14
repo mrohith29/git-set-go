@@ -1,5 +1,15 @@
 [comment]: # (Workflows.)
 
+✅ Understand what workflow means in Git and GitHub
+
+✅ Learn how to connect a repository with GitHub workflows
+
+✅ Practice this by setting up a static HTML workflow
+
+✅ Deploy a static website using GitHub Pages on a GitHub.io subdomain
+
+---
+
 # Workflow
 
 ---
@@ -51,5 +61,5 @@ A workflow is an automated process that helps you streamline your tasks—whethe
 
 In the same way, a GitHub workflow automates tasks for you, like deploying your website without manual effort every time.
 
-<img src="E:\github repository\git-set-go\post-morning session\deployment.png" style="width:50%;">
+<img src="E:\github repository\git-set-go\post-morning session\deployment.png" style="width:75%;">
 
