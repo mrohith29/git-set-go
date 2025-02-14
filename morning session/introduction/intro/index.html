@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>What is Git?</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/zenburn.min.css" id="highlight-theme"></head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section data-markdown ><textarea data-template>
+# What is Git?
+
+---
+
+Git is a version control system (VCS) that helps developers track changes in their code. Think of Git like a time machine for your projects—it allows you to go back to previous versions, see what changed, and collaborate with others without losing any progress.
+
+---
+
+## Is Git the Only One?
+
+---
+
+1) Apache Subversion (SVN)
+2) Mercurial
+3) Bazaar
+4) Perforce
+
+---
+
+# What is GitHub?
+
+---
+
+GitHub is a cloud-based platform that allows developers to store their Git repositories online and collaborate with others. While Git is the tool that helps you track changes, GitHub is a place where those changes are stored and shared.
+
+---
+
+Relationship Between Git & GitHub
+
+---
+
+Git and GitHub go hand in hand, but they are not the same thing. Git is the tool that manages your project’s history, while GitHub is an online service where you can upload and share your Git-tracked projects.
+
+--
+</textarea></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+Reveal.initialize({
+controls : false,
+markdown : {smartypants: true},
+				hash: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>
