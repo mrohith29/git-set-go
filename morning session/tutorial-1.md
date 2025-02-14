@@ -10,37 +10,37 @@
 
 ### Repository (Repo)
 
-<img src="E:\github repository\git-set-go\morning session\repository.png">
+<img src="E:\github repository\git-set-go\morning session\repository.png" style="width:50%;">
 
 ---
 
 ### Commit
 
-<img src="E:\github repository\git-set-go\morning session\commit.png">
+<img src="E:\github repository\git-set-go\morning session\commit.png" style="width:50%;">
 
 ---
 
 ### Push
 
-<img src="E:\github repository\git-set-go\morning session\push.png">
+<img src="E:\github repository\git-set-go\morning session\push.png" style="width:50%;">
 
 ---
 
 ### Pull
 
-<img src="E:\github repository\git-set-go\morning session\push.png">
+<img src="E:\github repository\git-set-go\morning session\pull.png" style="width:50%;">
 
 ---
 
 ### Branch
 
-<img src="E:\github repository\git-set-go\morning session\branching.png">
+<img src="E:\github repository\git-set-go\morning session\branching.png" style="width:50%;">
 
 ---
 
 ### Checkout
 
-<img src="E:\github repository\git-set-go\morning session\branching.png">
+<img src="E:\github repository\git-set-go\morning session\checkout.png" style="width:50%;">
 
 ---
 
