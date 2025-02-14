@@ -1,9 +1,7 @@
 [comment]: # (Feedback.)
 
-# Quizes Session
-
----
-
-## Session - 1
+# Feedback Session
 
 <img src="E:\github repository\git-set-go\feedback\Rohith.png" style="width:50%;">
+
+---
