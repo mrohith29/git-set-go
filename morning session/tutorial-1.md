@@ -1,38 +1,3 @@
-[comment]: # (This tutorial demonstrates how to use various Git commands to create and update a repository.)
-
-# Git Terminology and Commands
-
----
-
-## Key Terminology
-
----
-
-### Repository (Repo)
-
-<img src="E:\github repository\git-set-go\morning session\repository.png" style="width:75%;">
-
----
-
-### Commit
-
-<img src="E:\github repository\git-set-go\morning session\commit.png" style="width:75%;">
-
----
-
-### Push and Pull
-
-<img src="E:\github repository\git-set-go\morning session\push.png" style="width:75%;">
-
----
-
-
-### Branch and Checkout
-
-<img src="E:\github repository\git-set-go\morning session\branching.png" style="width:75%;">
-
----
-
 ## Initializing a Git Repository
 
 To start using Git, you need to initialize a repository in your project directory.
